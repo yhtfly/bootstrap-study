@@ -1,0 +1,5 @@
+@import "./test1.css";
+
+.wrap .box1 {
+  background-color: pink;
+}
