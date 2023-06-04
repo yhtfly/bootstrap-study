@@ -1,0 +1,13 @@
+.header .logo {
+    padding: 20px;
+}
+
+.header .tel {
+    text-align: right;
+    line-height: 90px;
+}
+
+.tel span::before {
+    vertical-align: middle;
+    margin-right: 5px;
+}
