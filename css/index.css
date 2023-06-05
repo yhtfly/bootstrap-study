@@ -45,3 +45,17 @@ a.navbar-brand {
     background-color: #337ab7;
     border: none;
 }
+
+@media screen and (max-width:767px) {
+    #my-navbar>ul>li {
+        width: 100%;
+    }
+
+    #my-navbar .nav li a {
+        text-align: left;
+    }
+
+    .dropdown-menu {
+        padding: 0;
+    }
+}
