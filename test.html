@@ -6,27 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <style>
         .first_floor {
-            width: 100px;
-            height: 100px;
-            background-color: #ccc;
-            border-bottom: 1px red solid;
-            position: relative;
-            top: 1px;
+            border: 1px red solid;
+            height: 200px;
+
         }
 
-        .two_floor {
-            width: 100px;
-            height: 100px;
-            border-top: 1px chartreuse solid;
+        .first_floor img {
+            width: 100%;
+        }
+
+        .container two {
+            background-color: yellow;
         }
     </style>
 </head>
 
 <body>
-    <div class="first_floor">123</div>
-    <div class="two_floor"></div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 first_floor">
+                <img src="./images/fengjing.jpg" alt="">
+            </div>
+
+
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 two">
+                <div>123</div>
+            </div>
+
+
+        </div>
+
+    </div>
+
 </body>
 
 </html>
