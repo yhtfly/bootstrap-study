@@ -12,6 +12,17 @@ a.navbar-brand {
     margin: 0;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
 .top-navbar {
     width: 100%;
     background-color: #fff;
@@ -126,192 +137,104 @@ a.navbar-brand {
     color: #fff;
 }
 
-.main-business {
-    height: 600px;
-    background-image: url("../images/background1.jpg");
+/* 公司优势 */
+.advantage {
+    padding-top: 20px;
+    background-color: #f4f4f4;
+
 }
 
-.main-business-content .company-title {
+.advantage .title {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
-    margin: 20px auto;
-}
-
-.main-business-content .company-title h1 {
-    color: #2079ff;
+    color: #333333;
 
 }
 
-.main-business-content .company-title p {
-    color: #5c5757
+.advantage .title span {
+    color: #d49e07;
 }
 
-.main-business-item-wrap {
-    padding-right: 22px;
-
+.advantage .bordered {
+    border: #006cba 3px solid;
 }
 
-.main-business-item {
-    margin-top: 30px;
-    height: 300px;
-    padding-top: 40px;
+.advantage .title p {
+    color: #868181;
+}
+
+
+
+/* 新闻中心 */
+
+.new-center .title h2 span {
+    color: #d49e07;
+}
+
+.new-center .title h2 {
     text-align: center;
-    background-color: #fff;
-    border-radius: 30px;
 }
 
-.item-icon::before {
-    font-size: 70px;
-    color: #195fbc;
+.new-center .title p {
+    text-align: center;
+    color: #868181;
 }
 
-.main-business-item p {
-    margin: 25px 20px 25px 25px;
+
+.news-item {
+    border: 1px #dddddd solid;
+    padding: 0px;
 }
 
-.main-business-item:hover {
-    background-color: #2079ff;
-    color: #fff;
-}
-
-.main-business-item:hover .item-icon::before {
-    color: #fff;
-}
-
-.long-banner {
-    height: 400px;
-    background-image: url('../images/banner330.png');
-    position: relative;
-}
-
-.long-banner .user-image {
-    position: absolute;
-    left: 48%;
-    top: 12%;
-}
-
-.long-banner .telephone h4::before {
-    /* vertical-align: middle; */
-    margin-right: 5px;
-}
-
-.long-banner .telephone {
-    float: right;
-    margin-right: 400px;
-    margin-top: 80px;
-    color: #fff;
-}
-
-.telephone p {
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-.telephone a {
-    text-decoration: none;
-    /* 去除下划线 */
+.news-item-wraaper {
+    padding: 20px;
 }
 
 
 
-.long-banner .chat {
-    display: block;
+.new-center .news-hd {
+    border-left: #d49e07 solid 5px;
+    border-bottom: 1px solid #dddddd;
     padding: 10px;
-    color: #fff;
-    border: 1px #fff solid;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 25px;
 }
 
-.long-banner .chat:hover {
-    background-color: #d8800d;
-}
-
-.new-center {
-    margin-top: 20px;
-}
-
-
-.nav-tabs {
-    border: none;
-    margin-bottom: 20px;
-}
-
-.nav-tabs li {
-    width: 33%;
-    border: 1px #ccc solid;
-}
-
-.nav-tabs li a {
-    text-align: center;
-}
-
-.nav-tabs li:nth-child(1) {
-    border-right: none;
-
-}
-
-.nav-tabs li:nth-child(2) {
-    border-right: none;
-
-}
-
-.nav-tabs>li.active>a {
-    background-color: #006cba;
-    color: #fff;
-
-}
-
-.nav-tabs>li.active>a {
-    border: none;
-    border-radius: 0;
-}
-
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:focus,
-.nav-tabs>li.active>a:hover {
-    border: none;
-}
-
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:focus,
-.nav-tabs>li.active>a:hover {
-    color: #fff;
-    cursor: default;
-    background-color: #006cba;
-}
-
-
-.img-area {
-    position: relative;
-    padding: 0;
-}
-
-.img-area img {
-    max-width: 100%;
-
-}
-
-.img-area-title {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    line-height: 50px;
-}
-
-
-.tab-news-list {}
-
-.tab-news-list ul li {
-    list-style: none;
-}
-
-.tab-news-list ul li {
+.new-center .news-hd h3 {
     padding-left: 10px;
-    padding-bottom: 10px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.new-center .news-hd h3 a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.new-center .news-hd h3 span {
+    display: block;
+    float: right;
+    font-size: 12px;
+}
+
+.new-center .news-hd h3 span a {
+    color: #999;
+}
+
+.news-content li {
+    height: 32px;
+    line-height: 32px;
+}
+
+.news-content li span {
+    color: #999;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+.news-content li a {
+    margin-left: 10px;
+    color: #4d4d4d;
 }

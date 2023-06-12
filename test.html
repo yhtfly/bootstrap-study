@@ -8,38 +8,69 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <style>
-        .first_floor {
-            border: 1px red solid;
-            height: 200px;
-
+        .container {
+            background-color: #F5F5F5;
+            padding: 50px 0;
         }
 
-        .first_floor img {
-            width: 100%;
+        h2 {
+            color: #337AB7;
         }
 
-        .container two {
-            background-color: yellow;
+        .fa {
+            color: #337AB7;
+        }
+
+        h3 {
+            color: #333;
+            font-weight: bold;
+        }
+
+        p {
+            color: #666;
         }
     </style>
 </head>
 
 <body>
+
     <div class="container">
+        <h2 class="text-center">我们的优势</h2>
         <div class="row">
-
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 first_floor">
-                <img src="./images/fengjing.jpg" alt="">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fa fa-rocket fa-3x"></i>
+                    <h3>快速响应</h3>
+                    <p>我们的团队能够快速响应您的需求，并提供高效的解决方案。</p>
+                </div>
             </div>
-
-
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 two">
-                <div>123</div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fa fa-users fa-3x"></i>
+                    <h3>专业团队</h3>
+                    <p>我们拥有一支专业的团队，能够为您提供全方位的技术支持和服务。</p>
+                </div>
             </div>
-
-
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fa fa-thumbs-up fa-3x"></i>
+                    <h3>卓越品质</h3>
+                    <p>我们的产品和服务始终保持卓越品质，为您带来最好的用户体验。</p>
+                </div>
+            </div>
         </div>
 
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://picsum.photos/400/400" alt="random image">
+            </div>
+            <div class="col-md-4">
+                <img src="https://picsum.photos/400/400" alt="random image">
+            </div>
+            <div class="col-md-4">
+                <img src="https://picsum.photos/400/400" alt="random image">
+            </div>
+        </div>
     </div>
 
 </body>
