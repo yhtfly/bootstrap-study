@@ -169,11 +169,11 @@ li {
 
 /* 新闻中心 */
 
-.new-center .title h2 span {
+.new-center .title h3 span {
     color: #d49e07;
 }
 
-.new-center .title h2 {
+.new-center .title h3 {
     text-align: center;
 }
 
@@ -237,4 +237,26 @@ li {
 .news-content li a {
     margin-left: 10px;
     color: #4d4d4d;
+}
+
+/* 底部轮播图区域*/
+.swiper-container {
+    width: 1200px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    width: 400px;
+    height: 400px;
+}
+
+.swiper-area .title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+.swiper-area .title span {
+    color: #d49e07;
 }

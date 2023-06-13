@@ -8,7 +8,8 @@
     <title>wordpress主题开发</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/index.css">
-</head>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+
 
 <body>
     <div class="header container">
@@ -250,7 +251,7 @@
     <div class="advantage">
         <div class="Wrapper container">
             <div class="row title">
-                <h2>我们的<span>优势</span></h2>
+                <h3>我们的<span>优势</span></h3>
                 <p>专业 迅速 高效</p>
             </div>
 
@@ -335,7 +336,7 @@
     <!-- 新闻中心 -->
     <div class="new-center container">
         <div class="row title">
-            <h2>新闻<span>中心</span></h2>
+            <h3>新闻<span>中心</span></h3>
             <p>了解新闻动态，把握市场行情</p>
         </div>
 
@@ -531,12 +532,61 @@
     </div>
     <!-- 新闻中心结束 -->
 
+    <!-- 底部轮播图区域 -->
+    <div class="swiper-area container">
+
+        <div class="row title">
+            <h3>热门产品<span>展示</span></h3>
+            <p>各种品类一应俱全，支持定制</p>
+        </div>
+
+        <div class="row">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide blue-slide">
+                        <img src="./images/fengjing.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide red-slide">
+                        <img src="./images/fengjing2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide orange-slide">
+                        <img src="./images/fengjing3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide blue-slide">
+                        <img src="./images/fengjing4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide red-slide">
+                        <img src="./images/fengjing5.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部轮播图结束 -->
 
 
 
 
 
 
+
+
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            loop: true,
+            autoplay: 3000
+
+        })
+    </script>
 
 
 

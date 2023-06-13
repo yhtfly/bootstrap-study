@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiper轮播图测试</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <style>
+        .swiper-container {
+            width: 1200px;
+            height: 300px;
+        }
+
+        .swiper-slide img {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide blue-slide">
+                <img src="./images/fengjing.jpg" alt="">
+            </div>
+            <div class="swiper-slide red-slide">
+                <img src="./images/fengjing2.jpg" alt="">
+            </div>
+            <div class="swiper-slide orange-slide">
+                <img src="./images/fengjing3.jpg" alt="">
+            </div>
+            <div class="swiper-slide blue-slide">
+                <img src="./images/fengjing4.jpg" alt="">
+            </div>
+            <div class="swiper-slide red-slide">
+                <img src="./images/fengjing5.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            loop: true,
+            autoplay: 3000
+
+        })
+    </script>
+
+
+</body>
+
+</html>
